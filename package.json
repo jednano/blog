@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Blogging platform, initially focused on recipes.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedmao/blog.git"
+  },
+  "keywords": [
+    "blog",
+    "platform",
+    "recipes"
+  ],
+  "author": "Jed Mao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jedmao/blog/issues"
+  },
+  "homepage": "https://github.com/jedmao/blog#readme"
+}
