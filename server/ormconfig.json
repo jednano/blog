@@ -1,0 +1,21 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "database": "blog",
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+    "src/entity/*.ts"
+  ],
+  "subscribers": [
+    "src/subscribers/*.ts"
+  ],
+  "migrations": [
+    "src/migration/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
+}

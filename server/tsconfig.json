@@ -2,8 +2,12 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
+    "module": "commonjs",
     "outDir": "../build/dist",
     "target": "es6",
     "rootDir": "src",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
   }
 }
