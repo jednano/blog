@@ -2,6 +2,7 @@ import {
 	BaseEntity,
 	Column,
 	Entity,
+	Index,
 	ObjectID,
 	ObjectIdColumn,
 } from 'typeorm'
@@ -12,15 +13,16 @@ import Category from './Category'
 export default class Post extends BaseEntity {
 
 	@ObjectIdColumn()
-	id: ObjectID
+	public id: ObjectID
 
 	@Column()
-	title: string
+	@Index()
+	public title: string
 
 	@Column()
-	text: string
+	public text: string
 
 	@Column(() => Category)
-	categories: Category[]
+	public categories: Category[]
 
 }

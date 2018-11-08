@@ -7,7 +7,5 @@
     "target": "es6",
     "rootDir": "src",
     "declaration": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
   }
 }
